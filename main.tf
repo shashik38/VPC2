@@ -90,7 +90,6 @@ resource "aws_security_group" "my_sgp" {
 
   tags = {
      Name = "SG for TEST VPC"
-#    "Environment" = var.environment_tag
   }
 }
 #----------------------------------
